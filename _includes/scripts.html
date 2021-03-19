@@ -18,8 +18,8 @@
 	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 	
 	  // Display the result in the element with id="demo"
-	  document.getElementById("demo").innerHTML = "<span class='l1-txt3 p-b-9 days gradient-text'>" + days + "<span class='s1-txt1'>Days</span> </span> " + "<span class='l1-txt3 p-b-9 hours gradient-text-1'>" + hours + "<span class='s1-txt1'>Hours</span> </span> "
-	  + "<span class='l1-txt3 p-b-9 minutes gradient-text-2'>" + minutes + "<span class='s1-txt1'>Minutes</span> </span> " + "<span class='l1-txt3 p-b-9 minutes gradient-text-3'>" + seconds + "<span class='s1-txt1'>Seconds</span> </span> ";
+	  document.getElementById("demo").innerHTML = "<div class='time-box'><span class='l1-txt3 p-b-9 days gradient-text'>" + days + "<span class='s1-txt1'>Days</span> </span></div> " + "<div class='time-box'><span class='l1-txt3 p-b-9 hours gradient-text-1'>" + hours + "<span class='s1-txt1'>Hours</span> </span></div> "
+	  + "<div class='time-box'><span class='l1-txt3 p-b-9 minutes gradient-text-2'>" + minutes + "<span class='s1-txt1'>Minutes</span> </span></div> " + "<div class='time-box'><span class='l1-txt3 p-b-9 minutes gradient-text-3'>" + seconds + "<span class='s1-txt1'>Seconds</span> </span></div> ";
 	
 	  // If the count down is finished, write some text
 	  if (distance < 0) {

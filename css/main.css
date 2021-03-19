@@ -658,10 +658,18 @@ input.input100 {
   grid-template-rows: 1fr;
   grid-gap: 10px;
   text-align: center;
+  max-width: 100px;
+  margin: 0px auto;
 }
 
 p#demo {
-  background: #0000008a;
+
+}
+
+.time-box {
+  background: #00000077;
   padding: 20px;
+  margin-bottom: 10px;
   border-radius: 10px;
+  text-align: center;
 }
